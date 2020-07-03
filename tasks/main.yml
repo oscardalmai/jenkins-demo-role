@@ -2,3 +2,7 @@
 - name: Install apache
   yum:
     name: httpd
+
+- name: Install git
+  yum:
+    name: git
